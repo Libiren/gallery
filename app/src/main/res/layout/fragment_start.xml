@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+
+
+
+    <Button
+        android:id="@+id/button_library"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_gravity="end|bottom"
+        android:width="1dp"
+        android:background="#83a16747"
+        android:clickable="true"
+        android:text="@string/my_library"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button_question"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_gravity="start|bottom"
+        android:background="#796c0b35"
+        android:clickable="true"
+        android:text="@string/question"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_photo"
+        android:layout_width="232dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:background="#7f434492"
+        android:text="@string/photo"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="234dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#778dbb8a"
+        android:clickable="true"
+        android:text="@string/video"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+</FrameLayout>
